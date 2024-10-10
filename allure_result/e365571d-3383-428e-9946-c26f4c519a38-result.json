@@ -1,0 +1,10 @@
+{"name": "Test Authentication",
+  "status": "passed",
+  "description": "This test attempts to log into the website using a login and a password. Fails if any error happens.\n\nNote that this test does not test 2-Factor Authentication.",
+  "start": 1728492031802,
+  "stop": 1728492031802,
+  "uuid": "35c5771c-ef6a-467d-8f7c-5bae435f1e42",
+  "historyId": "bfa2cd67cfe8cba01574ddecd67369dd",
+  "testCaseId": "bfa2cd67cfe8cba01574ddecd67369dd",
+  "fullName": "src.api_automation.ex_08102024.test_Lab003#test_sub0",
+  "labels": [{"name": "tag", "value": "Essentials"}, {"name": "tag", "value": "Authentication"}, {"name": "severity", "value": "critical"}, {"name": "tag", "value": "NewUI"}, {"name": "owner", "value": "John Doe"}, {"name": "tag", "value": "smoke"}, {"name": "parentSuite", "value": "src.api_automation.ex_08102024"}, {"name": "suite", "value": "test_Lab003"}, {"name": "host", "value": "YASHODHAR_KARKI"}, {"name": "thread", "value": "5568-MainThread"}, {"name": "framework", "value": "pytest"}, {"name": "language", "value": "cpython3"}, {"name": "package", "value": "src.api_automation.ex_08102024.test_Lab003"}], "links": [{"type": "tms", "url": "TMS-456", "name": "TMS-456"}, {"type": "issue", "url": "AUTH-123", "name": "AUTH-123"}, {"type": "link", "url": "https://dev.example.com/", "name": "Website"}]}
