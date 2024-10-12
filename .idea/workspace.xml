@@ -5,12 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eeb47b70-5776-47e3-bd7c-cfaf36407744" name="Changes" comment="Files of Oct 08 2024 are added">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api_automation/ex_10102024/project1_restful_booker/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api_automation/ex_10102024/project1_restful_booker/a_create_booking/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api_automation/ex_10102024/project1_restful_booker/a_create_booking/test_create_booking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api_automation/ex_10102024/project1_restful_booker/a_create_booking/test_create_booking_negative_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api_automation/ex_10102024/project1_restful_booker/b_update_booking/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api_automation/ex_10102024/project1_restful_booker/b_update_booking/test_update_booking_put_patch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api_automation/ex_10102024/project1_restful_booker/delete_booking/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api_automation/ex_10102024/project1_restful_booker/delete_booking/test_delete_booking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api_automation/ex_10102024/test_Lab006_fixtures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api_automation/ex_10102024/test_Lab007_multiple_fixtures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api_automation/ex_10102024/test_Lab008_fixtures2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api_automation/ex_10102024/test_Lab009_using_fixtures_in_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api_automation/ex_10102024/test_Lab010.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api_automation/testcases_projet#1_restful_booker/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api_automation/ex_10102024/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api_automation/testcases_projet#1_restful_booker/test_create_booking.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api_automation/ex_10102024/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api_automation/testcases_projet#1_restful_booker/test_invalid_and_valid_booking_id.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api_automation/ex_10102024/project1_restful_booker/a_create_booking/test_invalid_and_valid_booking_id.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,108 +60,128 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_Lab001.test_test_case3.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Lab002.test_verify_sub.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_Lab002.test_verify_sum1.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_invalid_and_valid_booking_id.test_create_booking.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_invalid_and_valid_booking_id.test_get_booking_id_null.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_Lab001.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_Lab002.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_Lab003.py.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for create_booking_negative_tests.test_create_booking_negative_tests.executor": "Run",
+    "Python tests.Python tests for create_booking_negative_tests.test_create_booking_negative_tests_tc1.executor": "Run",
+    "Python tests.Python tests for create_booking_negative_tests.test_create_booking_negative_tests_tc3.executor": "Run",
+    "Python tests.Python tests for test_Lab001.test_test_case3.executor": "Run",
+    "Python tests.Python tests for test_Lab002.test_verify_sub.executor": "Run",
+    "Python tests.Python tests for test_Lab002.test_verify_sum1.executor": "Run",
+    "Python tests.Python tests for test_Lab005.test_get_single_booking_id.executor": "Run",
+    "Python tests.Python tests for test_Lab010.test_update_req.executor": "Run",
+    "Python tests.Python tests for test_create_booking.test_create_booking.executor": "Run",
+    "Python tests.Python tests for test_delete_booking.test.executor": "Run",
+    "Python tests.Python tests for test_delete_booking.test_get_booking.executor": "Run",
+    "Python tests.Python tests for test_invalid_and_valid_booking_id.test_create_booking.executor": "Run",
+    "Python tests.Python tests for test_invalid_and_valid_booking_id.test_get_booking_id_null.executor": "Run",
+    "Python tests.Python tests for test_update_booking_put_patch.test_update_booking_patch.executor": "Run",
+    "Python tests.Python tests for test_update_booking_put_patch.test_update_booking_put.executor": "Run",
+    "Python tests.Python tests in test_Lab001.py.executor": "Run",
+    "Python tests.Python tests in test_Lab002.py.executor": "Run",
+    "Python tests.Python tests in test_Lab003.py.executor": "Run",
+    "Python tests.Python tests in test_Lab006_fixtures.py.executor": "Run",
+    "Python tests.Python tests in test_Lab007_multiple_fixtures.py.executor": "Run",
+    "Python tests.Python tests in test_Lab008_fixtures2.py.executor": "Run",
+    "Python tests.Python tests in test_Lab010.py.executor": "Run",
+    "Python tests.Python tests in test_delete_booking.py.executor": "Debug",
+    "Python tests.Python tests in test_update_booking_put_patch.py.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\91914\PycharmProjects\PyATB4xAPIAutomation\src\api_automation" />
+      <recent name="C:\Users\91914\PycharmProjects\PyATB4xAPIAutomation\src\api_automation\ex_10102024\project1_restful_booker\create_booking" />
+      <recent name="C:\Users\91914\PycharmProjects\PyATB4xAPIAutomation\src\api_automation\ex_10102024\project1_restful_booker\update_booking" />
+      <recent name="C:\Users\91914\PycharmProjects\PyATB4xAPIAutomation\src\api_automation\ex_10102024\project1_restful_booker" />
+      <recent name="C:\Users\91914\PycharmProjects\PyATB4xAPIAutomation\src\api_automation\ex_10102024\create_booking" />
+      <recent name="C:\Users\91914\PycharmProjects\PyATB4xAPIAutomation\src\api_automation\ex_10102024" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_invalid_and_valid_booking_id.test_create_booking">
-    <configuration name="Python tests for test_Lab002.test_verify_sub" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_Lab010.test_update_req">
+    <configuration name="Python tests for test_Lab010.test_update_req" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PyATB4xAPIAutomation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/api_automation/ex_08102024" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/api_automation/ex_10102024" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Lab002.test_verify_sub&quot;" />
+      <option name="_new_target" value="&quot;test_Lab010.test_update_req&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_Lab002.test_verify_sum1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_Lab006_fixtures.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PyATB4xAPIAutomation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/api_automation/ex_08102024" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/api_automation/ex_10102024" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Lab002.test_verify_sum1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/api_automation/ex_10102024/test_Lab006_fixtures.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_invalid_and_valid_booking_id.test_create_booking" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_Lab007_multiple_fixtures.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PyATB4xAPIAutomation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/api_automation/testcases_projet#1_restful_booker" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/api_automation/ex_10102024" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_invalid_and_valid_booking_id.test_create_booking&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/api_automation/ex_10102024/test_Lab007_multiple_fixtures.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_invalid_and_valid_booking_id.test_get_booking_id_null" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_Lab008_fixtures2.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PyATB4xAPIAutomation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/api_automation/testcases_projet#1_restful_booker" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/api_automation/ex_10102024" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_invalid_and_valid_booking_id.test_get_booking_id_null&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/api_automation/ex_10102024/test_Lab008_fixtures2.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_Lab003.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_Lab010.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PyATB4xAPIAutomation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/api_automation/ex_08102024" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/api_automation/ex_10102024" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/api_automation/ex_08102024/test_Lab003.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/api_automation/ex_10102024/test_Lab010.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_invalid_and_valid_booking_id.test_create_booking" />
-        <item itemvalue="Python tests.Python tests for test_invalid_and_valid_booking_id.test_get_booking_id_null" />
-        <item itemvalue="Python tests.Python tests in test_Lab003.py" />
-        <item itemvalue="Python tests.Python tests for test_Lab002.test_verify_sub" />
-        <item itemvalue="Python tests.Python tests for test_Lab002.test_verify_sum1" />
+        <item itemvalue="Python tests.Python tests for test_Lab010.test_update_req" />
+        <item itemvalue="Python tests.Python tests in test_Lab010.py" />
+        <item itemvalue="Python tests.Python tests in test_Lab008_fixtures2.py" />
+        <item itemvalue="Python tests.Python tests in test_Lab007_multiple_fixtures.py" />
+        <item itemvalue="Python tests.Python tests in test_Lab006_fixtures.py" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728576058368</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Files of Oct 08 2024 are added">
+      <option name="closed" value="true" />
+      <created>1728603845802</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728603845802</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
