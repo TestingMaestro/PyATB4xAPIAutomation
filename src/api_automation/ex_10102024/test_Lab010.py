@@ -17,3 +17,4 @@ def test_update_req():
     password = os.getenv("PASSWORD")
     print(f"Username:{user_name}")
     print(f"Password:{password}")
+

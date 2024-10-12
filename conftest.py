@@ -1,14 +1,19 @@
 import pytest
 import requests
+from dotenv import load_dotenv
+import os
 
 
 @pytest.fixture()
 def create_token():
+    load_dotenv()
+    user_name = os.getenv("USERNAME")
+    password = os.getenv("PASSWORD")
     URL = "https://restful-booker.herokuapp.com/auth"
     headers = {"Content-Type": "application/json"}
     json_payload = {
-        "username": "admin",
-        "password": "password123"
+        "username": user_name,
+        "password": password
     }
     response = requests.post(url=URL, headers=headers, json=json_payload)
     token = response.json()["token"]
